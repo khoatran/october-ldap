@@ -1,4 +1,4 @@
-<?php namespace Bamboo\LDAP;
+<?php namespace KhoaTD\LDAP;
 
 use Adldap\Laravel\AdldapServiceProvider;
 use Adldap\Laravel\Facades\Adldap;
