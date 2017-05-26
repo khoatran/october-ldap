@@ -1,6 +1,6 @@
 plugin:
     name: 'LDAP'
-    description: 'cmgdev.ldap::lang.plugin.description'
+    description: 'OctoberCMS backend LDAP authentication plugin'
     author: CmgDev
     icon: oc-icon-adjust
     homepage: ''
