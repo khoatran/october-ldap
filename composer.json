@@ -1,0 +1,17 @@
+{
+  "name": "Bamboo/LDAP",
+  "type": "october-plugin",
+  "description": "LDAP backend authentication plugin",
+  "keywords": ["backend", "octobercms", "ldap", "authentication"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khoa Tran",
+      "email": "tran.dang.khoa.khtn@gmail.com"
+    }
+  ],
+  "require": {
+    "adldap2/adldap2-laravel": "3.0.*"
+  },
+  "minimum-stability": "dev"
+}

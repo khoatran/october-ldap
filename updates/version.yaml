@@ -1,0 +1,6 @@
+1.0.1:
+    - Initialize plugin.
+1.0.2:
+    - 'Add user_type field to existing backend user table'
+    - builder_table_update_backend_user.php
+
