@@ -1,4 +1,4 @@
-<?php namespace KhoaTran\LDAP\Controllers;
+<?php namespace KhoaTD\LDAP\Controllers;
 
 use ApplicationException;
 use Backend;

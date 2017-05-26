@@ -1,4 +1,4 @@
 $(function() {
-    var authPostURL = '/backend/khoatran/ldap/ldapauth/signin';
+    var authPostURL = '/backend/khoatd/ldap/ldapauth/signin';
     $('form').attr('action', authPostURL);
 });

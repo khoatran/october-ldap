@@ -1,4 +1,4 @@
-<?php namespace KhoaTran\LDAP\Services;
+<?php namespace KhoaTD\LDAP\Services;
 
 use Backend\Classes\AuthManager;
 use October\Rain\Auth\AuthException;
