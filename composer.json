@@ -1,5 +1,5 @@
 {
-  "name": "Bamboo/LDAP",
+  "name": "KhoaTran/LDAP",
   "type": "october-plugin",
   "description": "LDAP backend authentication plugin",
   "keywords": ["backend", "octobercms", "ldap", "authentication"],

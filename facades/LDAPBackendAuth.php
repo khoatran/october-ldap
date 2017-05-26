@@ -1,4 +1,4 @@
-<?php namespace Bamboo\LDAP\Facades;
+<?php namespace KhoaTran\LDAP\Facades;
 use October\Rain\Support\Facade;
 
 class LDAPBackendAuth extends Facade

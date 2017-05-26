@@ -1,4 +1,4 @@
 $(function() {
-    var authPostURL = '/backend/bamboo/ldap/ldapauth/signin';
+    var authPostURL = '/backend/khoatran/ldap/ldapauth/signin';
     $('form').attr('action', authPostURL);
 });

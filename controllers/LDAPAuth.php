@@ -1,4 +1,4 @@
-<?php namespace Bamboo\LDAP\Controllers;
+<?php namespace KhoaTran\LDAP\Controllers;
 
 use ApplicationException;
 use Backend;

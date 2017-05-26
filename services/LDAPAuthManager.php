@@ -1,4 +1,4 @@
-<?php namespace Bamboo\LDAP\Services;
+<?php namespace KhoaTran\LDAP\Services;
 
 use Backend\Classes\AuthManager;
 use October\Rain\Auth\AuthException;

@@ -4,8 +4,8 @@ use Adldap\Laravel\AdldapServiceProvider;
 use Adldap\Laravel\Facades\Adldap;
 use App;
 use Backend\Controllers\Users;
-use Bamboo\LDAP\Facades\LDAPBackendAuth;
-use Bamboo\LDAP\Services\LDAPAuthManager;
+use KhoaTran\LDAP\Facades\LDAPBackendAuth;
+use KhoaTran\LDAP\Services\LDAPAuthManager;
 use Illuminate\Foundation\AliasLoader;
 use October\Rain\Support\Facades\Flash;
 use System\Classes\PluginBase;
@@ -44,7 +44,7 @@ class Plugin extends PluginBase
 
 
     protected function hookSigninForm($controller) {
-        $controller->addJs('/plugins/bamboo/ldap/assets/js/override-auth.js');
+        $controller->addJs('/plugins/khoatran/ldap/assets/js/override-auth.js');
         $message = Session::get('message');
         if(!empty($message)) {
             Flash::error($message);
