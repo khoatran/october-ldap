@@ -8,7 +8,7 @@ class BuilderTableUpdateBackendUser extends Migration
     public function up()
     {
         Schema::table('backend_users', function ($table) {
-            $table->enum('user_type', ['cms', 'ldap'])->default('cms');
+            $table->enum('khoatd_ldap_user_type', ['cms', 'ldap'])->default('cms');
         });
 
     }
@@ -16,7 +16,7 @@ class BuilderTableUpdateBackendUser extends Migration
     public function down()
     {
         Schema::table('backend_users', function ($table) {
-            $table->dropColumn('user_type');
+            $table->dropColumn('khoatd_ldap_user_type');
         });
     }
 }
